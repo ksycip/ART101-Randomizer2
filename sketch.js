@@ -114,7 +114,7 @@ function randomizer() {
     clear();
 
     randomIndex = int(random(boxdog.length));
-    text(`${boxdog[randomIndex].name} inspect ${boxdog[randomIndex].color}`, width/2, height - 100);
+    text(`${boxdog[randomIndex].name} inspect ${boxdog[randomIndex].color}`, width / 2, height - 100);
     image(random(gradient), width / 2, height / 2);
     //text(boxdog[randomIndex].name + "'s favorite color is " + boxdog[randomIndex].color, 50, 50);
     boxdog.splice(randomIndex, 1);
